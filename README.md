@@ -1,4 +1,6 @@
 # TrollTrace
+![giphy](https://github.com/TrollTrace/TrollTrace/assets/158124623/012623e4-3807-4c94-bf51-e9018205f19f)
+
 
 Table of Contents
 =================
@@ -18,7 +20,7 @@ Table of Contents
 ## Project Overview
 
 ## Team Members
-Meet the team behind Interslice:
+Meet the team behind TrollTrace:
 * Steve Cherewaty [Github](https://github.com/SCherewaty) ! [LinkedIn](https://www.linkedin.com/in/steve-cherewaty-jr-b8727135/)
 * Omar Ardid [Github](https://github.com/oardid) ! [LinkedIn](https://www.linkedin.com/in/ardidomar/)
 * Gilbert Collado [Github](https://github.com/JapanesePlatano) ! [LinkedIn](https://www.linkedin.com/in/gilbert-collado-545099254)
