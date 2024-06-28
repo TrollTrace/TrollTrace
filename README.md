@@ -3,20 +3,19 @@
 Table of Contents
 =================
 <!--ts-->
-  * [Project Overview])
+  * [Project Overview]()
   * [Team Members]()
   * [Team Agreemeent]()
-  * [System Selection])
-  * [Employee Handbook])
+  * [System Selection]()
+  * [Employee Handbook]()
   * [Standard Operating Procedure]()
   * [Topologies/Visuals]()
   * [Project Management Tool]()
   * [Scripts]()
-  * [Presentation Link])
+  * [Presentation Link]()
 <!--te-->
 
 ## Project Overview
-
 
 ## Team Members
 Meet the team behind Interslice:
@@ -25,7 +24,7 @@ Meet the team behind Interslice:
 * Gilbert Collado [Github](https://github.com/JapanesePlatano) ! [LinkedIn](https://www.linkedin.com/in/gilbert-collado-545099254)
 
 ## Team Agreement
-You can view our Team Agreement [here](). This agreement outlines guidelines for communication, collaboration, decision-making processes, and conflict resolution within the team.
+You can view our Team Agreement [here](). This agreement outlines communication, collaboration, decision-making processes, and conflict-resolution guidelines within the team.
 
 ## System Selection
 We selected the technology stack for Interslice based on the following criteria:
@@ -47,7 +46,7 @@ We follow a set of Standard Operating Procedures (SOPs) to maintain consistency 
 Here are some visual representations of TrollTrace's architecture and topology:
 
 ## Project Management Tool
-We use [Trello]() to track our progress and tasks. In Trello, we organize tasks into boards, lists, and cards, representing different stages of development. Each card contains details such as task description, assignee, due date, and checklist items.
+We use [Github Projects]() to track our progress and tasks. In Trello, we organize tasks into boards, lists, and cards, representing different stages of development. Each card contains task description, assignee, due date, and checklist items.
 
 ## Scripts
 We have a collection of scripts used in the project for various purposes:
