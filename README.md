@@ -1,4 +1,4 @@
-# TrollTrace
+# Troll Trace
 
 ![designer__3__720](https://github.com/TrollTrace/TrollTrace/assets/158124623/04e2fb83-68e1-40d2-9570-c94f9bfa6e39)
 
