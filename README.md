@@ -1,5 +1,6 @@
 # TrollTrace
-![giphy](https://github.com/TrollTrace/TrollTrace/assets/158124623/012623e4-3807-4c94-bf51-e9018205f19f)
+
+![designer__3__720](https://github.com/TrollTrace/TrollTrace/assets/158124623/04e2fb83-68e1-40d2-9570-c94f9bfa6e39)
 
 
 Table of Contents
@@ -24,6 +25,8 @@ Meet the team behind TrollTrace:
 * Steve Cherewaty [Github](https://github.com/SCherewaty) ! [LinkedIn](https://www.linkedin.com/in/steve-cherewaty-jr-b8727135/)
 * Omar Ardid [Github](https://github.com/oardid) ! [LinkedIn](https://www.linkedin.com/in/ardidomar/)
 * Gilbert Collado [Github](https://github.com/JapanesePlatano) ! [LinkedIn](https://www.linkedin.com/in/gilbert-collado-545099254)
+  
+![giphy](https://github.com/TrollTrace/TrollTrace/assets/158124623/012623e4-3807-4c94-bf51-e9018205f19f)
 
 ## Team Agreement
 You can view our Team Agreement [here](). This agreement outlines communication, collaboration, decision-making processes, and conflict-resolution guidelines within the team.
