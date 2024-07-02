@@ -44,6 +44,7 @@ View the full System Selection [here]()
 We follow a set of Standard Operating Procedures (SOPs) to maintain consistency and efficiency within the project:
 
 [Adversarial Activity Observation](https://docs.google.com/document/d/1fcyVTEse8zI8tG0s9xonNSYkhK2FNgLJN_e08eb2aYg/edit#heading=h.vl16rmtqvuod)
+
 [Implementing Detective Controls on the Web Server](https://docs.google.com/document/d/1yX7RRFYjWol-4Uwdo4okRlYPs-4YLamZ1xPj3cMXs98/edit#heading=h.brpohc6znf3f)
 
 
