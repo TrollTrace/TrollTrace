@@ -49,7 +49,7 @@ By specifying these hosts, the query will only consider events from these specif
 (sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" OR sourcetype="WinEventLog:Security" OR sourcetype="linux_secure" OR sourcetype="apache_error")
 ```
 
-* ***(sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational"***: This filters events by sourcetype, which is a way to categorize events in Splunk. In this case, it looks for events from the "WinEventLog:Microsoft-Windows-Sysmon/Operational" sourcetype. This sourcetype is used for Windows event logs related to Sysmon, which is a Windows monitoring tool.
+* ***(sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational"***: This filters events by sourcetype, which is a way to categorize events in Splunk. In this case, it looks for events from the ***"WinEventLog:Microsoft-Windows-Sysmon/Operational"*** sourcetype. This sourcetype is used for Windows event logs related to Sysmon, which is a Windows monitoring tool.
 * ***OR***: The "OR" operator is used to combine multiple conditions. It means that if any of the conditions after it are true, the entire condition will be true.
 * ***sourcetype="WinEventLog:Security"***: This filters events by another sourcetype, "WinEventLog:Security", which is used for Windows event logs related to security.
 * ***OR***: Another "OR" operator to combine conditions.
