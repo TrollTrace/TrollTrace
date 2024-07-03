@@ -13,7 +13,7 @@ The query used is searching for security-related events on the host "ACCOUNTING1
 
 ![Screenshot 2024-07-03 135141.png](https://github.com/TrollTrace/TrollTrace/blob/dc4d6e9470ef4695c9fc1f345376516f4936a6c6/Screenshot%202024-07-03%20135141.png)
 
-The query returns events that match any of these three EventCodes, showing a table with columns including date, time, event description, message, index, and host. The screenshot appears to show multiple events that match the query criteria, including login events, account lockout events, and process creation events. You can also check out the Full CSV file for this [here](/Documents/Splunk_CSV_Files/Risk-Analyst1.csv).
+The query returns events that match any of these three EventCodes, showing a table with columns including date, time, event description, message, index, and host. The screenshot appears to show multiple events that match the query criteria, including login events, account lockout events, and process creation events. You can also check out the Full CSV file for this [here](https://github.com/TrollTrace/TrollTrace/blob/f631e39e8dd21504a5c3731e7cd1cef5696d5c7f/Documents/Splunk_CSV_Files/ACCOUNTING_1.csv).
 
 ## Event Codes
 ### 4624: Windows Login Event
@@ -43,12 +43,12 @@ Query Used:
   * Package Name (NTLM only): NTLM V1
   * Key Length: 128
   
-The event indicates a successful anonymous login from a remote workstation (nmap) to the system RISK-ANALYST1 using NTLM authentication. You can view the full CSV file for Event Code 4624 [here](/Documents/Splunk_CSV_Files/RiskAnalyst4624.csv).
+The event indicates a successful anonymous login from a remote workstation (nmap) to the system ACCOUNTING1 using NTLM authentication. You can view the full CSV file for Event Code 4624 [here](https://github.com/TrollTrace/TrollTrace/blob/b0e84f96459ae930db012cf784e71cd06976d17d/Documents/Splunk_CSV_Files/ACCOUNTING1_4624.csv).
 
 ### 4672: Windows Account Lockout Event
 Query Used:
 ```
-(index="main" host="RISK-ANALYST1" (EventCode=4624 OR EventCode=4672 OR EventCode=4688)) EventCode=4672
+(index="main" host="ACCOUNTING1" (EventCode=4624 OR EventCode=4672 OR EventCode=4688)) EventCode=4672
 ```
 ![Screenshot 2024-07-03 135440.png](https://github.com/TrollTrace/TrollTrace/blob/dc4d6e9470ef4695c9fc1f345376516f4936a6c6/Screenshot%202024-07-03%20135440.png)
 
