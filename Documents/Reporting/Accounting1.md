@@ -1,4 +1,4 @@
-# Host: Risk Analyst1 Event Log Analysis
+# Host: Accounting 1 Event Log Analysis
 
 ### Query Used: 
 ```
