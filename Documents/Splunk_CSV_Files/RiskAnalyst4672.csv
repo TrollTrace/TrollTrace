@@ -1,0 +1,1089 @@
+EventCode,Message,"_raw","_time",host,index,linecount,source,sourcetype,"splunk_server"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 06:58:03 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59809
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T01:58:03.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 06:58:03 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59807
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T01:58:03.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:20:38 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59805
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:20:38.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:54 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59803
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:54.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:28 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59798
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:28.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:26 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59794
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:26.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:26 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59792
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:26.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:26 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59790
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:26.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e5
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:26 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59788
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e5
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:26.000+00:00","RISK-ANALYST1",main,22,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-20
+	Account Name:		NETWORK SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e4
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:26 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59786
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-20
+	Account Name:		NETWORK SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e4
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:26.000+00:00","RISK-ANALYST1",main,22,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 05:18:25 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59784
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-03T00:18:25.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 03:24:57 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59766
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T22:24:57.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 03:24:56 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59764
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T22:24:56.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:41:40 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59708
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:41:40.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:56 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59702
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:56.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:29 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59699
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:29.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:28 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59695
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:28.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:28 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59693
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:28.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:28 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59691
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:28.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e5
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:28 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59689
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-19
+	Account Name:		LOCAL SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e5
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:28.000+00:00","RISK-ANALYST1",main,22,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-20
+	Account Name:		NETWORK SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e4
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:27 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59687
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-20
+	Account Name:		NETWORK SERVICE
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e4
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeAuditPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:27.000+00:00","RISK-ANALYST1",main,22,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 02:39:27 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59685
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T21:39:27.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 12:00:00 AM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59363
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T07:00:00.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
+4672,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","07/02/2024 12:00:00 AM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=RISK-ANALYST1
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=59361
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege","2024-07-02T07:00:00.000+00:00","RISK-ANALYST1",main,30,"WinEventLog:Security","WinEventLog:Security","ip-10-0-0-207.us-west-2.compute.internal"
