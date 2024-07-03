@@ -1,0 +1,121 @@
+AttackDetected,CommandLine,EventCode,Message,"_raw","_time",host,index,linecount,source,sourcetype,"splunk_server",user
+Yes,"""powershell.exe"" -ExecutionPolicy Bypass -File ""C:\Program Files\Amazon\Ec2ConfigService\Scripts\DiscoverConsolePort.ps1""",1,"Process Create:
+RuleName: -
+UtcTime: 2024-07-03 00:18:31.914
+ProcessGuid: {5BF82D9B-98D7-6684-3800-000000003900}
+ProcessId: 1612
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" -ExecutionPolicy Bypass -File ""C:\Program Files\Amazon\Ec2ConfigService\Scripts\DiscoverConsolePort.ps1""
+CurrentDirectory: C:\Program Files\Amazon\Ec2ConfigService\Scripts\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5BF82D9B-98D1-6684-E703-000000000000}
+LogonId: 0x3e7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=A8FDBA9DF15E41B6F5C69C79F66A26A9D48E174F9E7018A371600B866867DAB8
+ParentProcessGuid: {5BF82D9B-98D6-6684-2B00-000000003900}
+ParentProcessId: 580
+ParentImage: C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe
+ParentCommandLine: ""C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe""","07/02/2024 05:18:33 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=RISK-ANALYST1
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=945236
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-07-03 00:18:31.914
+ProcessGuid: {5BF82D9B-98D7-6684-3800-000000003900}
+ProcessId: 1612
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" -ExecutionPolicy Bypass -File ""C:\Program Files\Amazon\Ec2ConfigService\Scripts\DiscoverConsolePort.ps1""
+CurrentDirectory: C:\Program Files\Amazon\Ec2ConfigService\Scripts\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5BF82D9B-98D1-6684-E703-000000000000}
+LogonId: 0x3e7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=A8FDBA9DF15E41B6F5C69C79F66A26A9D48E174F9E7018A371600B866867DAB8
+ParentProcessGuid: {5BF82D9B-98D6-6684-2B00-000000003900}
+ParentProcessId: 580
+ParentImage: C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe
+ParentCommandLine: ""C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe""
+","2024-07-03T00:18:33.000+00:00","RISK-ANALYST1",main,38,"C:\Windows\System32\Winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx","WinEventLog:Microsoft-Windows-Sysmon/Operational","ip-10-0-0-207.us-west-2.compute.internal",
+Yes,"""powershell.exe"" -ExecutionPolicy Bypass -File ""C:\Program Files\Amazon\Ec2ConfigService\Scripts\DiscoverConsolePort.ps1""",1,"Process Create:
+RuleName: -
+UtcTime: 2024-07-02 21:39:35.005
+ProcessGuid: {5BF82D9B-7397-6684-3B00-000000003600}
+ProcessId: 1060
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" -ExecutionPolicy Bypass -File ""C:\Program Files\Amazon\Ec2ConfigService\Scripts\DiscoverConsolePort.ps1""
+CurrentDirectory: C:\Program Files\Amazon\Ec2ConfigService\Scripts\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5BF82D9B-738F-6684-E703-000000000000}
+LogonId: 0x3e7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=A8FDBA9DF15E41B6F5C69C79F66A26A9D48E174F9E7018A371600B866867DAB8
+ParentProcessGuid: {5BF82D9B-7394-6684-2B00-000000003600}
+ParentProcessId: 2016
+ParentImage: C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe
+ParentCommandLine: ""C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe""","07/02/2024 02:39:35 PM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=RISK-ANALYST1
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=939678
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-07-02 21:39:35.005
+ProcessGuid: {5BF82D9B-7397-6684-3B00-000000003600}
+ProcessId: 1060
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" -ExecutionPolicy Bypass -File ""C:\Program Files\Amazon\Ec2ConfigService\Scripts\DiscoverConsolePort.ps1""
+CurrentDirectory: C:\Program Files\Amazon\Ec2ConfigService\Scripts\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5BF82D9B-738F-6684-E703-000000000000}
+LogonId: 0x3e7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=A8FDBA9DF15E41B6F5C69C79F66A26A9D48E174F9E7018A371600B866867DAB8
+ParentProcessGuid: {5BF82D9B-7394-6684-2B00-000000003600}
+ParentProcessId: 2016
+ParentImage: C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe
+ParentCommandLine: ""C:\Program Files\Amazon\Ec2ConfigService\Ec2Config.exe""
+","2024-07-02T21:39:35.000+00:00","RISK-ANALYST1",main,38,"C:\Windows\System32\Winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx","WinEventLog:Microsoft-Windows-Sysmon/Operational","ip-10-0-0-207.us-west-2.compute.internal",
