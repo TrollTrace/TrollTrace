@@ -1,0 +1,6 @@
+Host: SimCorp Web Application Event Log Analysis
+
+Query Used:
+index="main" host="ip-10-0-0-175" 
+
+The query used is searching for anything suspicious on the host "Web Application" or 10.0.0.175 in the "main" index.  
