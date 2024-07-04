@@ -6,18 +6,20 @@ Query Used:
 This initial query is very broad and searching for suspicious activitiy in the SimCorp Web App (10.0.0.175):
 index="main" host="ip-10-0-0-175"
 
-Screenshot Initial Query.png
+![Screenshot 2024-07-03 at 10 34 41 PM](https://github.com/TrollTrace/TrollTrace/assets/34401677/9c12304f-60be-4442-88b9-5c7a1f604e4f)
+
 
 The query returns over 40,000 events so further refinement is needed.  The search was narrowed down with a source path where "/var/log/apache2/access.log" has clearly had the bulk of events:
 
-PLACEHOLDER SCREENSHOT
+![var:log filter](https://github.com/TrollTrace/TrollTrace/assets/34401677/66ff5370-2869-4322-91a7-3d2dac3e1e04)
+
 
 So the investigation continued with this query:
 index="main" host="ip-10-0-0-175" source="/var/log/apache2/access.log"
 
 This was the result:
 
-PLACEHOLDER SCREENSHOT
+![Somewhat suspicious](https://github.com/TrollTrace/TrollTrace/assets/34401677/f83328de-ef7d-4525-bf18-aa51b7a4bf5e)
 
 These first 3 logs are suspicious and they are a good representative of all in this category.
 
@@ -42,15 +44,20 @@ Suspicious Aspect: Access to a login page (/simcorp/login.php). While this by it
 
 The investigation continued and uncovered these logs as well:
 
-PLACEHOLDER SCREENSHOT "Highly Suspicious"
+![Highly suspicious](https://github.com/TrollTrace/TrollTrace/assets/34401677/84390da1-83f3-4716-b35e-29bf32eedc1c)
 
-The logs here are highly suspicious and indicate attempts at SQL injection attacks.
+
+The logs here are highly suspicious and indicate attempts at SQL injection attacks.  One major tip-off is the .php file named "/var/www/html/sqli_1.php"  SQLI meaning Structured Query Language Injection.
+
+![SQLI](https://github.com/TrollTrace/TrollTrace/assets/34401677/091e9286-55d2-4934-9a11-b6b94a4ed973)
+
+
 * Repeated Access Attempts:
 All the log entries show repeated attempts to access sqli_1.php with different payloads (GET /sqli_1.php?id=1%29%20ORDER%20BY%207003--%20dHOS), which is a clear indicator of automated testing or an attack.
 The payload tries to use ORDER BY with an arbitrary number, which is a common technique in SQL injection to test for vulnerabilities.
 
 * User-Agent:
-The User-Agent in all entries is sqlmap/1.8.5#stable (https://sqlmap.org). SQLMap is a well-known tool used for automated SQL injection and database takeover.
+The User-Agent in all entries is sqlmap/1.8.5#stable (https[1]://sqlmap.org). SQLMap is a well-known tool used for automated SQL injection and database takeover.
 
 * Request Patterns:
 The URLs contain SQL injection payloads, attempting to manipulate SQL queries through URL parameters.
