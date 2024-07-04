@@ -1,14 +1,14 @@
-Host: Risk Analyst1 Event Log Analysis
+Host: SimCorp Web App Event Log Analysis
 
 Query Used:
 
-(index="main" host="RISK-ANALYST1" (EventCode=4624 OR EventCode=4672 OR EventCode=4688))
-The query used is searching for security-related events on the host "RISK-ANALYST1" in the "main" index. The query is looking for events with one of three EventCodes:
+(index="main" host="10.0.0.175"
+This initial query is very broad and searching for suspicious activitiy in the SimCorp Web App (10.0.0.175)
 
 4624: Windows login event (user logged in or out)
 4672: Windows account lockout event (account locked out due to incorrect login attempts)
 4688: Windows process creation event (new process started)
-Screenshot 2024-07-03 004945
+Screenshot Initial Query.png
 
 Screenshot 2024-07-03 011715
 
