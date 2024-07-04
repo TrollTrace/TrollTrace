@@ -47,6 +47,8 @@ We follow a set of Standard Operating Procedures (SOPs) to maintain consistency 
 
 [Implementing Detective Controls on the Web Server](https://docs.google.com/document/d/1yX7RRFYjWol-4Uwdo4okRlYPs-4YLamZ1xPj3cMXs98/edit#heading=h.brpohc6znf3f)
 
+[STRIDE Analysis](https://github.com/TrollTrace/TrollTrace/blob/447a7daae7027f65150c664f2595139a411f6774/Documents/STRIDE%20Analysis.pdf)
+
 
 
 
