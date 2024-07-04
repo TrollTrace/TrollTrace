@@ -10,14 +10,14 @@ Screenshot Initial Query.png
 
 The query returns over 40,000 events so further refinement is needed.  The search was narrowed down with a source path where "/var/log/apache2/access.log" has clearly had the bulk of events:
 
-
+PLACEHOLDER SCREENSHOT
 
 So the investigation continued with this query:
 index="main" host="ip-10-0-0-175" source="/var/log/apache2/access.log"
 
 This was the result:
 
-PLACEHOLDER
+PLACEHOLDER SCREENSHOT
 
 These first 3 logs are suspicious and they are a good representative of all in this category.
 
@@ -40,26 +40,29 @@ Status Code: 200 (OK)
 User-Agent: Windows NT, Chrome
 Suspicious Aspect: Access to a login page (/simcorp/login.php). While this by itself is not suspicious, in the context of the other entries, it could indicate an attempt to find login portals for potential attacks.
 
-The investigation went back to source and continued down the line to 
+The investigation continued and uncovered these logs as well:
+
+PLACEHOLDER SCREENSHOT "Highly Suspicious"
+
+The logs here are highly suspicious and indicate attempts at SQL injection attacks.
+* Repeated Access Attempts:
+All the log entries show repeated attempts to access sqli_1.php with different payloads (GET /sqli_1.php?id=1%29%20ORDER%20BY%207003--%20dHOS), which is a clear indicator of automated testing or an attack.
+The payload tries to use ORDER BY with an arbitrary number, which is a common technique in SQL injection to test for vulnerabilities.
+
+* User-Agent:
+The User-Agent in all entries is sqlmap/1.8.5#stable (https://sqlmap.org). SQLMap is a well-known tool used for automated SQL injection and database takeover.
+
+* Request Patterns:
+The URLs contain SQL injection payloads, attempting to manipulate SQL queries through URL parameters.
+For example, the payloads contain encoded characters, SQL keywords, and commands such as ORDER BY and various encoded string manipulations designed to exploit vulnerabilities in the application.
+Attempts were executed to use a more complex payload involving DBMS_PIPE.RECEIVE_MESSAGE.
+The repeated requests with similar payloads indicate a brute force approach to identify a working SQL injection vector.
+
+The immediate actions to take (were this not an exercise) would be to:
+* Block the IP address 10.0.0.176 if it’s not a known or trusted source.
+* Review your web application's code and database queries to ensure they are secure against SQL injection (e.g., use prepared statements, parameterized queries).
+* Implement Web Application Firewalls (WAF) to detect and block SQL injection attempts.
+* Regularly update and patch your web applications and underlying frameworks.
+* Perform security audits and penetration testing to identify and fix vulnerabilities.
 
 
-4672: Windows Account Lockout Event
-
-Query Used:
-
-(index="main" host="RISK-ANALYST1" (EventCode=4624 OR EventCode=4672 OR EventCode=4688)) EventCode=4672
-Screenshot 2024-07-03 010113
-
-Event Type: Special privilege assignment
-The SYSTEM account has been granted several system-level privileges, including:
-SeAssignPrimaryTokenPrivilege: Assigning primary tokens
-SeTcbPrivilege: Accessing TCB (Trusted Computing Base) data
-SeSecurityPrivilege: Performing security-related actions
-SeTakeOwnershipPrivilege: Taking ownership of files and folders
-SeLoadDriverPrivilege: Loading drivers
-SeBackupPrivilege: Backing up files
-SeRestorePrivilege: Restoring files
-SeDebugPrivilege: Debugging processes
-SeAuditPrivilege: Auditing processes
-SeSystemEnvironmentPrivilege: Impersonating other users
-These privileges allow the SYSTEM account to perform various system-level operations. You can view the full-text file for Event Code 4672 here.
