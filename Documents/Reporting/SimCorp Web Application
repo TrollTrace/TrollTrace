@@ -3,46 +3,45 @@ Host: SimCorp Web App Event Log Analysis
 Query Used:
 
 (index="main" host="10.0.0.175"
-This initial query is very broad and searching for suspicious activitiy in the SimCorp Web App (10.0.0.175)
+This initial query is very broad and searching for suspicious activitiy in the SimCorp Web App (10.0.0.175):
+index="main" host="ip-10-0-0-175"
 
-4624: Windows login event (user logged in or out)
-4672: Windows account lockout event (account locked out due to incorrect login attempts)
-4688: Windows process creation event (new process started)
 Screenshot Initial Query.png
 
-Screenshot 2024-07-03 011715
+The query returns over 40,000 events so further refinement is needed.  The search was narrowed down with a source path where "/var/log/apache2/access.log" has clearly had the bulk of events:
 
-The query returns events that match any of these three EventCodes, showing a table with columns including date, time, event description, message, index, and host. The screenshot appears to show multiple events that match the query criteria, including login events, account lockout events, and process creation events. You can also check out the Full CSV file for this here.
 
-Event Codes
 
-4624: Windows Login Event
+So the investigation continued with this query:
+index="main" host="ip-10-0-0-175" source="/var/log/apache2/access.log"
 
-Query Used:
+This was the result:
 
-(index="main" host="RISK-ANALYST1" (EventCode=4624 OR EventCode=4672 OR EventCode=4688)) EventCode=4624
-Screenshot 2024-07-03 005448
+PLACEHOLDER
 
-Event Type: Successful logon (4624)
-Subject: Anonymous account with no specific user or domain information
-Logon Type: Remote network logon from a workstation named "nmap"
-New Logon:
-Security ID: ANONYMOUS LOGON
-Account Name: ANONYMOUS LOGON
-Account Domain: NT AUTHORITY
-Logon ID: 0x5c94d3d
-Process Information: No specific process name associated with this logon
-Network Information:
-Workstation Name: nmap
-Source Network Address: 10.0.0.176
-Source Port: 44544
-Detailed Authentication Information:
-Logon Process: NtLmSsp
-Authentication Package: NTLM
-Transited Services: empty
-Package Name (NTLM only): NTLM V1
-Key Length: 128
-The event indicates a successful anonymous login from a remote workstation (nmap) to the system RISK-ANALYST1 using NTLM authentication. You can view the full CSV file for Event Code 4624 here.
+These first 3 logs are suspicious and they are a good representative of all in this category.
+
+The first log entry shows an attempt to access the /etc/passwd file using a URL encoding technique which could be indicative of an SQL injection attack.
+Request: GET /cgi-bin/.%32%65/.%32%65/.%32%65/.%32%65/etc/passwd
+Status Code: 400 (Bad Request)
+User-Agent: iPad, Mac OS X
+Suspicious Aspect: The request is attempting to access /etc/passwd, which is a sensitive system file in Unix-like systems. The use of encoded characters (%32%65) indicates an attempt to bypass security filters.
+
+The second log entry is also suspicious.
+Request: \x16\x03\x03\x01\x02
+Status Code: 400 (Bad Request)
+User-Agent: None
+Suspicious Aspect: This entry shows a binary request (likely an SSL/TLS handshake attempt) sent to a web server port, which is unusual if it’s not an HTTPS server. 
+This could indicate a port scanning or a probing attempt.
+
+The third log entry is an attempt to find other weaknesses and is enough to continue the search.
+Request: GET /simcorp/login.php
+Status Code: 200 (OK)
+User-Agent: Windows NT, Chrome
+Suspicious Aspect: Access to a login page (/simcorp/login.php). While this by itself is not suspicious, in the context of the other entries, it could indicate an attempt to find login portals for potential attacks.
+
+The investigation went back to source and continued down the line to 
+
 
 4672: Windows Account Lockout Event
 
