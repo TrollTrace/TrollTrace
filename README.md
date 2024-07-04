@@ -43,7 +43,7 @@ View the full System Selection [here]()
 ## Standard Operating Procedure
 We follow a set of Standard Operating Procedures (SOPs) to maintain consistency and efficiency within the project:
 
-[Adversarial Activity Observation](https://docs.google.com/document/d/1fcyVTEse8zI8tG0s9xonNSYkhK2FNgLJN_e08eb2aYg/edit#heading=h.vl16rmtqvuod)
+[Adversarial Activity Observation](https://github.com/TrollTrace/TrollTrace/blob/d98263a091592d784631d1ccb8bcecce67bffe56/Documents/Implementing%20Detective%20Controls%20on%20the%20Web%20Server.pdfhttps://github.com/TrollTrace/TrollTrace/blob/d98263a091592d784631d1ccb8bcecce67bffe56/Documents/Implementing%20Detective%20Controls%20on%20the%20Web%20Server.pdf)
 
 [Implementing Detective Controls on the Web Server](https://github.com/TrollTrace/TrollTrace/blob/d98263a091592d784631d1ccb8bcecce67bffe56/Documents/Implementing%20Detective%20Controls%20on%20the%20Web%20Server.pdf)
 
