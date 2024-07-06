@@ -8,20 +8,19 @@ Born out of a desire to aggressively defend business owners' right to do busines
 Table of Contents
 =================
 <!--ts-->
-  * [Project Overview]()
-  * [Team Members]()
-  * [Team Agreemeent]()
-  * [System Selection]()
-  * [Employee Handbook]()
-  * [Standard Operating Procedure]()
-  * [Topologies/Visuals]()
-  * [Project Management Tool]()
-  * [Scripts]()
-  * [Presentation Link]()
+  * [Project Overview](#project-overview)
+  * [Team Members](#team-members)
+  * [Project Challenges](#project-challenges)
+  * [Team Agreemeent](#team-agreement)
+  * [System Selection](#systems-and-components-selection)
+  * [Standard Operating Procedure](#standard-operating-procedure)
+  * [Topologies/Cloud Architecture Design](#topologiescloud-architecture-design)
+  * [Project Management Tool](#project-management-tool)
+  * [Presentation Link](#presentation-link)
 <!--te-->
 
 ## Project Overview
-Troll Trace, a top-notch cybersecurity firm, has been hired to perform a threat emulation exercise for SimCorp, a prominent financial services provider. During this task, Troll Trace’s blue team will take on an active threat-hunting role.  The team will monitor and record adversarial activities inside of SimCorp's Virtual Private Cloud (VPC).  This VPC will be treated as though it were a honeypot, and the blue team will observe without interfering in the adversaries' movement through the network. Blue team's objective is to rapidly uncover and rectify any gaps in detection capabilities to ensure all threats are detected.  The blue team must enhance detection systems quickly while preserving the integrity of the engagement. Strategic teamwork is crucial in protecting SimCorp's systems from cyber threats.
+Troll Trace, a top-notch cybersecurity firm, has been hired to perform a threat emulation exercise for SimCorp, a prominent financial services provider. During this task, Troll Trace’s blue team will take on an active threat-hunting role.  The team will monitor and record adversarial activities inside SimCorp's Virtual Private Cloud (VPC).  This VPC will be treated as though it were a honeypot, and the blue team will observe without interfering in the adversaries' movement through the network. Blue team's objective is to rapidly uncover and rectify any gaps in detection capabilities to ensure all threats are detected.  The blue team must enhance detection systems quickly while preserving the integrity of the engagement. Strategic teamwork is crucial in protecting SimCorp's systems from cyber threats.
 
 ## Team Members
 Meet the team behind TrollTrace:
