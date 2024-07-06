@@ -1,3 +1,4 @@
+[![](https://visitcount.itsvg.in/api?id=TrollTrace&label=Profile%20Views&color=0&icon=7&pretty=false)](https://visitcount.itsvg.in)
 # TrollTrace
 
 ![designer__3__720](https://github.com/TrollTrace/TrollTrace/assets/158124623/04e2fb83-68e1-40d2-9570-c94f9bfa6e39)
