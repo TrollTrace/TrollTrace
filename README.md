@@ -31,10 +31,17 @@ Meet the team behind TrollTrace:
   
 ![giphy](https://github.com/TrollTrace/TrollTrace/assets/158124623/012623e4-3807-4c94-bf51-e9018205f19f)
 
+## Project Challenges
+* Observe adversarial actions and collect evidence on movement and actions.
+* Configure IDS rules for greater detection capabilities.
+* Deploy additional threat detection tools where needed.
+* Where appropriate, design and implement scripted automation for alerting.
+* Generate a threat model and perform a STRIDE analysis.
+
 ## Team Agreement
 You can view our Team Agreement [here](/Documents/BLUETeamAgreement.pdf). This agreement outlines communication, collaboration, decision-making processes, and conflict-resolution guidelines within the team.
 
-## System Selection
+## Systems and Components Selection
 We selected the technology stack for Interslice based on the following criteria:
 - **Scalability**: Choose scalable frameworks and tools to accommodate future growth and user demands.
 - **Performance**: Prioritized technologies are known for their efficiency and speed to ensure optimal system performance.
