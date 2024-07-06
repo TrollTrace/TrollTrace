@@ -72,5 +72,5 @@ Here are some visual representations of TrollTrace's architecture and topology:
 We use [Github Projects](https://github.com/orgs/TrollTrace/projects/4) to track our progress and tasks. In Trello, we organize tasks into boards, lists, and cards, representing different stages of development. Each card contains a task description, assignee, due date, and checklist items.
 
 ## Presentation Link
-View our live project presentation [here](https://zoom.us/rec/share/IqXSoEr6s8Z_CGJm9AKgRyS5NdZZZ1vl62I5Ilk53hCf0gIXGVgaJx4M3AxUOV2a.V5Rw0TFk7jA_1_Qb) for an overview of TrollTrace's features and functionalities.<br>
+View our live project presentation [here]() for an overview of TrollTrace's features and functionalities.<br>
 Take a view of our project presentation slideshow [here](/Documents/401%20Final%20-%20Blue%20Team.pdf)
